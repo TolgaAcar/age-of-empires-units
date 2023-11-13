@@ -1,41 +1,36 @@
-# adesso-age-of-empires
+# Age of Empires Units
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
 
-## Recommended IDE Setup
+Users are able to:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Check all units
+- Filter units by ages
+- Filter units by costs (Food, Wood, Gold)
+- Redirect to details page of each unit
 
-## Customize configuration
+## Built with
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Vue 3](https://v3.vuejs.org/) - The Progressive JavaScript Framework
+- [Vue Router](https://router.vuejs.org/) - The official router for Vue.js.
+- [Pinia](https://pinia.vuejs.org/) - State management pattern + library for Vue.js applications
+- [Vuetify](https://vuetifyjs.com/) - Vue Component Framework
+- [Vitest](https://vitest.dev/) - Next Generation Testing Framework
+- HTML
+- SCSS
 
-## Project Setup
+## Project setup
 
-```sh
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compiles and hot-reloads for development
 
-```sh
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Author
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [Tolga Acar](https://github.com/TolgaAcar)
