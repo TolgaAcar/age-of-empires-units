@@ -1,0 +1,29 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+  transition: 0.4s;
+}
+
+nav a.router-link-exact-active {
+  color: var(--selected-link);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--selected-link);
+  }
+}
