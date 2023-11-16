@@ -3,7 +3,7 @@
     <h1 class="my-10">404 - Not Found</h1>
     <h2 class="mb-10">The page you are looking for does not exist.</h2>
 
-    <v-btn variant="flat" color="#e81932" @click="returnHome"> Go to Home</v-btn>
+    <v-btn variant="flat" color="#e81932" @click="returnHome">Go to Home</v-btn>
   </div>
 </template>
 

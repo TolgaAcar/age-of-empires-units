@@ -25,6 +25,7 @@
               thumb-label="always"
               color="var(--selected-link)"
               hide-details
+              :data-testid="`range-slider${costType}`"
             />
           </v-col>
         </v-row>
